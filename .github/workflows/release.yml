@@ -23,8 +23,7 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           body: |
-            Changes in this Release
-            - First Change
-            - Second Change
+            To download execute the following statement:
+            pip install git+https://github.com/TrisNol/python-sample-package@${{ github.ref }}
           draft: false
           prerelease: false
