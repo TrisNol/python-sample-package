@@ -6,6 +6,9 @@ on:
 
 name: Create Release
 
+env:
+  RELEASE_VERSION: ${GITHUB_REF:10}
+
 jobs:
   build:
     name: Create Release
@@ -14,9 +17,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set env
-        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:10})
-        
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
