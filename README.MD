@@ -1,8 +1,8 @@
-[![GitHub license](https://img.shields.io/github/license/TrisNol/sample-python-repo.svg)](https://github.com/TrisNol/sample-python-repo/blob/master/LICENSE)
-[![Github all releases](https://img.shields.io/github/downloads/TrisNol/sample-python-repo/total.svg)](https://github.com/users/TrisNol/packages/container/package/sample-python-repo)
-[![GitHub forks](https://img.shields.io/github/forks/TrisNol/sample-python-repo.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/TrisNol/sample-python-repo)
-# Sample Python Repo
-This repo contains a skeleton for Python projects containing some basic DevOps´ components like CI/CD pipelines.
+[![GitHub license](https://img.shields.io/github/license/TrisNol/python-sample-package.svg)](https://github.com/TrisNol/python-sample-package/blob/master/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/TrisNol/python-sample-package/total.svg)](https://github.com/users/TrisNol/packages/container/package/python-sample-package)
+[![GitHub forks](https://img.shields.io/github/forks/TrisNol/python-sample-package.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/TrisNol/python-sample-package)
+# Python saple release
+This repo contains a skeleton for Python packages containing some basic DevOps´ components like CI/CD pipelines.
 
 ## Linting
 The code of this repo will be linted with [PyLint](https://pylint.org/) automatically on each push and pull-request to ensure that the files are correctly formatted in order to improve readability.
