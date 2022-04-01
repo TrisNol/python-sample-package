@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Set env
+        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:10})
         
       - name: Create Release
         id: create_release
@@ -24,6 +27,6 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             To download execute the following statement:
-            pip install git+https://github.com/TrisNol/python-sample-package@${{ github.ref:10 }}
+            pip install git+https://github.com/TrisNol/python-sample-package@$RELEASE_VERSION
           draft: false
           prerelease: false
