@@ -1,5 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/TrisNol/python-sample-package.svg)](https://github.com/TrisNol/python-sample-package/blob/master/LICENSE)
-[![Github all releases](https://img.shields.io/github/downloads/TrisNol/python-sample-package/total.svg)](https://github.com/users/TrisNol/packages/container/package/python-sample-package)
+[![GitHub release](https://img.shields.io/github/release/TrisNol/python-sample-package.svg)](https://GitHub.com/TrisNol/python-sample-package/releases/)
 [![GitHub forks](https://img.shields.io/github/forks/TrisNol/python-sample-package.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/TrisNol/python-sample-package)
 # Python sample package
 This repo contains a skeleton for Python packages containing some basic DevOps´ components like CI/CD pipelines.
