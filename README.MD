@@ -5,7 +5,7 @@
 This repo contains a skeleton for Python packages containing some basic DevOps´ components like CI/CD pipelines.
 
 You can download the module by executing the following command (replace `<tag>` with the version you would like to download):
-`pip install git+https://github.com/TrisNol/python-sample-package<tag>`
+`pip install git+https://github.com/TrisNol/python-sample-package@<tag>`
 
 The module can then be used as follows:
 ```python
