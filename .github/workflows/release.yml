@@ -24,6 +24,6 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             To download execute the following statement:
-            pip install git+https://github.com/TrisNol/python-sample-package@${{ github.ref }}
+            pip install git+https://github.com/TrisNol/python-sample-package@${{ github.ref:10 }}
           draft: false
           prerelease: false
